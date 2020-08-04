@@ -7,8 +7,6 @@ Table of Contents
   - [Usar nossas libs e rodar o projeto](#usar-nossas-libs-e-rodar-o-projeto)
   - [Links úteis](#links-úteis)
 
-
-
 # Exemplo rápido de uso do npm link
 
 ## Estrutura de pastas e seus arquivos propostos
@@ -42,7 +40,9 @@ Através desse comando, fariamos o equivalente a instalar esse pacote do npm, um
 
 ## Usar nossas libs e rodar o projeto
 
-Feito os passos anteriores podemos importar dentro do arquivo `app.js` as libs que estamos desenvolvendo dentro da pasta de pacotes e rodar nosso app através do comando `node app.js`
+Feito os passos anteriores podemos importar dentro do arquivo `app.js` as libs que estamos desenvolvendo dentro da pasta de pacotes, usar elas e rodar nosso app através do comando `node app.js`. O resultado esperado é esse:
+
+![Resultado](./result.jpeg)
 
 ## Links úteis
 - [npm link documentation](https://docs.npmjs.com/cli/link)
